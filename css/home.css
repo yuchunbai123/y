@@ -1,0 +1,65 @@
+
+#wrapper{ display: grid; border: 2px solid black; grid-template-areas:"writing2 writing2 writing2"
+               "innergrid innergrid innergrid"
+               "pic writing writing"
+               "pic writing writing"
+               "pepeha writing writing";
+font-size: 30px } 
+
+body{
+ background: linear-gradient(45deg, rgba(245, 183, 177) , rgba(249, 231, 159))
+}
+h1{font-size: 50px}
+h2{font-size: 100px}
+#innergrid{
+    grid-area: innergrid;
+    display:grid;
+grid-template-areas: "home contact achivement aboutme";}
+#home{
+    grid-area: home;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    background: linear-gradient(45deg, rgba(245, 183, 177) , rgba(249, 231, 159))
+}
+#contact{
+    grid-area: contact;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+#achivement{
+    grid-area: achivement;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+#aboutme{
+    grid-area: aboutme;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+}
+#pic{
+    grid-area: pic;
+     border-right: 0px solid black;
+     border-bottom: 0px solid black;
+}
+#pepeha{
+    grid-area: pepeha;
+     border-right: 2px solid black;
+}
+#pic2{
+    grid-area: pic2;
+}
+#writing{
+    grid-area: writing;
+}
+#writing2{
+    grid-area: writing2;
+     text-align: center;
+}
+
